@@ -27,9 +27,7 @@ class page
 
         $this->tpl = new Tpl;
 
-        foreach ($this->options["data"] as $key => $value) {
-            $this->tpl->assign($key, $value);
-        }
+        $this->setData($this->options["data"]);
 
         $this->tpl->draw("header");
     }
@@ -43,7 +41,9 @@ class page
 
     public function setTpl($nome, $data = array(), $returnHtml = false)
     { 
-        $this->setData();
+        $this->setData($data);
+
+        return $this->tpl->draw($name, $returnHtml);
     }
 
     public function __destruct()
