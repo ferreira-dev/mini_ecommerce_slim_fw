@@ -39,11 +39,12 @@ class page
         }
     }
 
-    public function setTpl($nome, $data = array(), $returnHtml = false)
+    public function setTpl($name, $data = array(), $returnHtml = false)
     { 
         $this->setData($data);
 
-        return $this->tpl->draw($name, $returnHtml);
+       return $this->tpl->draw($name, $returnHtml);
+
     }
 
     public function __destruct()
