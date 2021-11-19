@@ -1,3 +1,3 @@
-parei na aula 106 - ADMIN LOGIN (6:30 min) {
-    reformulando tela de login do ADMIN.
+parei na aula 106 - ADMIN LOGIN (18 min) {
+    login admin e banco de dados
 }
