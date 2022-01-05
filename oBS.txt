@@ -1,3 +1,12 @@
-parei na aula 106 - ADMIN LOGIN (30 min) {
-    login admin e banco de dados
-}
+
+login funcionando.
+- falta funcionar msg de erro de login;
+
+redirecionar para index.php (contendo cadastro de jogos)
+- criar o crud de jogos
+- criar upload de imagens - OK
+- organizar código
+
+
+depois de tudo funcionando:
+- refatorar código (organização, validações e segurança)

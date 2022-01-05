@@ -24,7 +24,7 @@ if (empty($busca)){
 <div class="container">
 	
 	<h2 class="text-center">
-	Usu <i class="fa fa-list"></i>
+		List of Clients <i class="fa fa-list"></i>
 	</h2>
 
 	<h5 class="text-right">
